@@ -1,4 +1,4 @@
-.color-basic {color:rgb(37, 119, 167);}
+.color-basic {color:hsl(204, 100%, 25%);}
 --image
 body {
     background: none;
@@ -8,11 +8,12 @@ ul {
     width: 100%;
     margin-bottom: 20px;
     position: absolute;
+    box-shadow: hsl(204, 100%, 30%);
     top: 0px;
     padding: 0px;
     left: 0;
     overflow: hidden;
-    background-color: #192d3ae3;}
+    background-color:hsl(204, 100%, 25%);}
     
 li {
 float: left;
@@ -25,7 +26,7 @@ float: left;
 li a {
 display: block;
 block-size: 20px;
-color:rgb(37, 119, 167);
+color:hsl(204, 100%, 70%);
 text-align: center;
 text-anchor: center;
 padding: 10px;
@@ -33,11 +34,11 @@ text-decoration: none;
 }
 
 h1 {
-padding: 20px;
+padding: 30px;
 text-align: center;
 font-family: Georgia, 'Times New Roman', Times,  sans-serif;
 font-size: 56px;
-/* font-weight: 800; */
+
 }
 
 h2 {
@@ -54,18 +55,23 @@ p {
 }
 
 li a:hover {
-    background-color: rgb(22, 20, 56);
+    background-color: hsl(204, 100%, 15%);
 }
 
 
 #radio-buttons{
     padding: 50px;
     padding-left: 40%;
+}
 
+#icon-row{
+    background-color: silver;
+    padding:50px;
+    
 }
 
 .image { 
-width: 30%;
+width: 100px;
 border: none;
 padding: none;
 margin: none;
